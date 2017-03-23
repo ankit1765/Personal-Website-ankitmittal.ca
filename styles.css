@@ -1,0 +1,32 @@
+body {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	background-image: url("skyline.jpg");
+	align-content: center
+	}
+
+div.one {
+	background-image: url("pic.png");
+	width: 450px;
+	height: 550px;
+	box-shadow: 5px 10px 5px #888888;
+	
+	
+	position: absolute;
+  top: 20%;
+  left: 45%;	
+  margin: -100px 0 0 -150px;
+}
+
+
+h1 {
+	
+	  text-align: center;
+
+	
+}
+
+
+
+
+
+
