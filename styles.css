@@ -19,8 +19,8 @@ div.one {
 }
 
 
-h1 {
-	
+h1 {	
+	  text-align: center;
 	  text-align: center;
 }
 
@@ -35,10 +35,27 @@ p2 {
 }
 
 p3 {
+	
 	color: black;
 	text-align: center;
+	width: 450px;
+	height: 100px;
+}
+
+
+button.git {
+	object-position: center;
 	
 }
+
+button.insta {
+	
+}
+
+button.link{
+	
+}
+
 
 
 
