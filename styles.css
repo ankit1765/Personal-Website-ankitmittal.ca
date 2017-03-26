@@ -1,9 +1,9 @@
-
-
 body {
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
     background-image: url("skyline.jpg");
     background-attachment: fixed;
+	background-repeat: no-repeat;
+	position: static;
 	align-content: center
 }
 
@@ -11,37 +11,34 @@ div.one {
 	background-image: url("pic.jpg");
 	width: 450px;
 	height: 550px;
-	box-shadow: 5px 10px 5px #888888;
+	/*box-shadow: 5px 10px 5px #888888;*/
 	position: absolute;
- 	top: 25%;
+ 	top: 20%;
     left: 45%;	
     margin: -100px 0 0 -150px;
 }
 
-
-h1 {	
+h1.name {	
 	  text-align: center;
-	  text-align: center;
+	
 }
 
-p1 {
+p1.icon {
 	top: 10px;
 	text-align: center;
 }
 
-p2 {
+p2.intro {
 	color: black;
 	text-align: center;
 }
 
-p3 {
-	
+p3.email {
 	color: black;
 	text-align: center;
 	width: 450px;
 	height: 100px;
 }
-
 
 button.git {
 	object-position: center;
@@ -49,12 +46,21 @@ button.git {
 }
 
 button.insta {
-	
+	position: relative;
 }
 
 button.link{
 	
 }
+
+p.logo {
+	
+	text-align: center;
+	position: relative;
+
+}
+
+
 
 
 
