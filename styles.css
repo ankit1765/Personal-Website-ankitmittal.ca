@@ -4,66 +4,74 @@ body {
     background-attachment: fixed;
 	background-repeat: no-repeat;
 	position: static;
-	align-content: center
+	align-content: center;
 }
 
-div.one {
+div.links {
+	float: left;
+	width: 100%;
+	height: 35px;
+	text-align: center;
+	padding-top: 10px;
+	position: fixed;
+}
+
+div.large {
+	float: right;
+	width: 100%;
+	height: 80%;
+	padding-top: 60px;
+	align-items: center;
+}
+
+div.page {
 	background-image: url("pic.jpg");
-	width: 450px;
-	height: 550px;
-	/*box-shadow: 5px 10px 5px #888888;*/
-	position: absolute;
- 	top: 20%;
-    left: 45%;	
-    margin: -100px 0 0 -150px;
+	width: 510px;
+	height: 610px;
+	margin: 0 auto;
+	text-align: center;
 }
-
-h1.name {	
-	  text-align: center;
-	
-}
-
-p1.icon {
-	top: 10px;
+div.pagetwo {
+	background-image: url("pic.jpg");
+	width: 510px;
+	height: 610px;
+	margin: 0 auto;
+	float: left;
 	text-align: center;
 }
 
-p2.intro {
+img.icon {
+	padding-top: 15px;
+	
+}
+
+div.intro {
 	color: black;
 	text-align: center;
 }
 
-p3.email {
-	color: black;
+div.content {
+	float: right;
+	width: 510px;
+	height: 35px;
 	text-align: center;
-	width: 450px;
-	height: 100px;
+	padding-top: 0px;
+
 }
 
-button.git {
-	object-position: center;
-	
-}
 
-button.insta {
-	position: relative;
-}
-
-button.link{
-	
-}
-
-p.logo {
-	
+div.logo {
 	text-align: center;
-	position: relative;
-
+	top: 100%;
+	padding-top: 121px;
 }
 
+a.link {
+	padding-right: 25px;
+}
+a.git {
 
-
-
-
-
-
-
+}
+a.insta {
+	padding-left: 25px;
+}
