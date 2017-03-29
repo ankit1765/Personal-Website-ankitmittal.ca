@@ -23,20 +23,26 @@ div.large {
 	padding-top: 60px;
 	align-items: center;
 }
+div.twopage {
+	width: 1030px;
+	height: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+
 
 div.page {
 	background-image: url("pic.jpg");
 	width: 510px;
 	height: 600px;
-	margin: 0 auto;
+	float: left;
 	text-align: center;
 }
-div.pagetwo {
+div.secondpage {
 	background-image: url("pic.jpg");
 	width: 510px;
 	height: 600px;
-	margin: 0 auto;
-	float: left;
+	float: right;
 	text-align: center;
 }
 
@@ -74,6 +80,7 @@ div.logo {
 a.link {
 	padding-right: 25px;
 }
+
 a.git {
 
 }
