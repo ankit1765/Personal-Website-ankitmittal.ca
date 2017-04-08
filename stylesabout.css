@@ -1,6 +1,6 @@
 body {
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
-    background-image: url("skyline.jpg");
+    background-image: url("images/skyline.jpg");
     background-attachment: fixed;
 	background-repeat: no-repeat;
 	position: static;
@@ -16,39 +16,32 @@ div.links {
 	position: fixed;
 }
 
-div.large {
+
+div.widecontainer {
 	float: right;
 	width: 100%;
 	height: 80%;
 	padding-top: 60px;
 	align-items: center;
 }
-div.twopage {
+
+div.multiplepages {
 	width: 1030px;
 	height: 600px;
-	margin: 0 auto;
+	margin:auto;
 	text-align: center;
 }
 
-
-div.page {
-	background-image: url("pic.jpg");
+div.titlepage {
+	background-image: url("images/pic.jpg");
 	width: 510px;
 	height: 600px;
 	float: left;
 	text-align: center;
 }
-div.secondpage {
-	background-image: url("pic.jpg");
-	width: 510px;
-	height: 600px;
-	float: right;
-	text-align: center;
-}
 
 img.icon {
 	padding-top: 15px;
-	
 }
 
 div.intro {
@@ -56,34 +49,41 @@ div.intro {
 	text-align: center;
 }
 
-div.content {
+div.logo {
+	text-align: center;
+	top: 100%;
+
+}
+
+div.socialmedia {
 	float: right;
 	width: 510px;
 	height: 35px;
 	text-align: center;
 	padding-top: 0px;
-
 }
 
-a.resume {
-	
-	width: 120;
-	height: 35;
+div.secondpage {
+	background-image: url("images/picabout.jpg");
+	width: 510px;
+	height: 600px;
+	float: right;
+	overflow-y: auto;
+	text-align: left;
 }
 
-div.logo {
-	text-align: center;
-	top: 100%;
-	padding-top: 75px;
+div.text {
+	padding-left: 15px;
 }
 
-a.link {
+a.linkedin {
 	padding-right: 25px;
 }
 
-a.git {
-
-}
-a.insta {
+a.instagram {
 	padding-left: 25px;
+}
+
+img.travel {
+	padding-top: 563px;
 }
