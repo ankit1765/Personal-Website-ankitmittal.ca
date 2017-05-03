@@ -36,7 +36,7 @@ if (screen.width <= 1000) {
 
 						<div class="titlepage" style="left: 12px; top: 66px;">
 
-							<img class="icon" src = "images/iconabout.png" alt = "xyz" width = "165" height = "170" title = "xyz" >
+							<img class="icon" src = "images/iconcontact.png" alt = "xyz" width = "165" height = "170" title = "xyz" >
 
 							<div class = "intro">
 
@@ -67,7 +67,17 @@ if (screen.width <= 1000) {
 						<div class="secondpage" >
 							
 						<p> <strong>EMAIL: ANKIT.MITTAL@ALUMNI.UBC.CA</strong> </p>
-						<P>CONTACT PAGE UNDER CONSTRUCTION</P>
+						
+						<form action="contact.php" method="post">
+						Your name<br>
+						<input type="text" name="cf_name"><br>
+						Your e-mail<br>
+						<input type="text" name="cf_email"><br>
+						Message<br>
+						<textarea name="cf_message"></textarea><br>
+						<input type="submit" value="Send">
+						<input type="reset" value="Clear">
+						</form>
 							
 
 							<img class="travel" src = "images/travel.png" alt = "xyz" width = "410" height = "25" title = "xyz" >

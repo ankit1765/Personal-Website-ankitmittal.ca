@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "myFirstFont";
-    src: url(title.ttf);
+   font-family: myFirstFont;
+   src: url(title.ttf);
 }
 
 body {
@@ -10,6 +10,7 @@ body {
 	background-repeat: no-repeat;
 	position: static;
 	align-content: center;
+		background-size: 100% 100%;
 }
 
 div.links {
@@ -27,14 +28,26 @@ div.widecontainer {
 	height: 80%;
 	padding-top: 60px;
 	align-items: center;
+	align-content: center;
 }
 
 div.titlepage {
+	
 	background-image: url("images/pic.jpg");
 	width: 510px;
 	height: 600px;
 	margin: auto;
 	text-align: center;
+	top: 50%;
+	bottom: 50%;
+	overflow-y: auto;
+ 	
+}
+
+p.HelloWorld {
+	font-family: myFirstFont;
+	font-size: 45px;
+	font-stretch: extra-expanded;
 }
 
 img.icon {
@@ -50,21 +63,7 @@ div.intro {
 div.logo {
 	text-align: center;
 	top: 100%;
-	padding-top: 0px;
+	padding-bottom: 10px;
 }
 
-div.socialmedia {
-	float: right;
-	width: 510px;
-	height: 35px;
-	text-align: center;
-	padding-top: 0px;
-}
 
-a.linkedin {
-	padding-right: 25px;
-}
-
-a.instagram {
-	padding-left: 25px;
-}
