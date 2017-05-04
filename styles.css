@@ -7,16 +7,16 @@ body {
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
     background-image: url("images/skyline.jpg");
     background-attachment: fixed;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	position: static;
 	align-content: center;
-		background-size: 100% 100%;
+	background-size: cover;
 }
 
 div.links {
 	float: left;
 	width: 100%;
-	height: 35px;
+	height: 5%;
 	text-align: center;
 	padding-top: 10px;
 	position: fixed;
@@ -25,45 +25,60 @@ div.links {
 div.widecontainer {
 	float: right;
 	width: 100%;
-	height: 80%;
-	padding-top: 60px;
-	align-items: center;
-	align-content: center;
+	height: 100%;
+	padding-top: 5%;
+	/*align-items: center;
+	align-content: center;*/
 }
 
 div.titlepage {
 	
 	background-image: url("images/pic.jpg");
+	background-size:cover;
+
 	width: 510px;
 	height: 600px;
 	margin: auto;
 	text-align: center;
-	top: 50%;
-	bottom: 50%;
+	/*top: 50%;*/
+	/*bottom: 50%;*/
 	overflow-y: auto;
- 	
 }
 
-p.HelloWorld {
-	font-family: myFirstFont;
-	font-size: 45px;
-	font-stretch: extra-expanded;
+div.iconbox {
+	width: 510px;
+	height: 175px;
+	margin-top: 2px;
 }
 
 img.icon {
-	padding-top: 15px;	
+	margin-top: 0px;
+
 }
+
+div.title {
+	padding-top: 0px;
+	width: 510px;
+	height: 35px;
+}
+
+
+
+p.HelloWorld {
+	font-family: myFirstFont;
+	font-size: 35px;
+}
+
+
 
 div.intro {
 	color: black;
 	text-align: center;
-	
 }
 
 div.logo {
 	text-align: center;
-	top: 100%;
-	padding-bottom: 10px;
+	margin-bottom: 0px;
 }
 
 

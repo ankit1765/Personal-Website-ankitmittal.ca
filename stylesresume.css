@@ -68,18 +68,20 @@ div.title {
 	padding-top: 0px;
 	width: 510px;
 	height: 35px;
+	margin-bottom: 5px;
 }
 
 
 
 p.HelloWorld {
 	font-family: myFirstFont;
-	font-size: 35px;
+	font-size: 30px;
 }
 
 
 
 div.intro {
+
 	color: black;
 	text-align: center;
 }
