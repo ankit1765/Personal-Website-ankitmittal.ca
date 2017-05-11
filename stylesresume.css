@@ -3,6 +3,11 @@
    src: url(title.ttf);
 }
 
+@font-face {
+   font-family: resumefont;
+   src: url(fontz.ttf);
+}
+
 body {
 background-image: url("images/skyline.jpg");
     background-attachment: fixed;
@@ -84,6 +89,7 @@ div.intro {
 
 	color: black;
 	text-align: center;
+	font-family: resumefont;
 }
 
 div.logo {
@@ -112,5 +118,39 @@ div.secondpage {
 div.text {
 	padding-left: 15px;
 }
+
+li {
+	font-family: resumefont;
+    margin-bottom: 9px;
+}
+
+p.education {
+	font-family: myFirstFont; 
+}
+p.employment {
+	font-family: myFirstFont; 
+}
+
+p.volunteer {
+	font-family: myFirstFont; 
+}
+
+
+dt.location {
+	font-size: 13px;
+	text-align: left;
+}
+
+dt.time {
+	font-size: 11px;
+	text-align: left;
+}
+
+
+a.companies:hover {
+	
+	color: blue;
+}
+
 
 
