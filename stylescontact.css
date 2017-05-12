@@ -3,9 +3,13 @@
    src: url(title.ttf);
 }
 
+@font-face {
+   font-family: resumefont;
+   src: url(fontz.ttf);
+}
+
 body {
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
-    background-image: url("images/skyline.jpg");
+	background-image: url("images/skyline.jpg");
     background-attachment: fixed;
 	background-repeat: repeat;
 	position: static;
@@ -22,16 +26,23 @@ div.links {
 	position: fixed;
 }
 
+
 div.widecontainer {
 	float: right;
 	width: 100%;
 	height: 100%;
 	padding-top: 5%;
+}
 
+
+div.multiplepages {
+	width: 1030px;
+	height: 600px;
+	margin:auto;
+	text-align: center;
 }
 
 div.titlepage {
-	
 	background-image: url("images/pic.jpg");
 	background-size:cover;
 	width: 510px;
@@ -39,44 +50,65 @@ div.titlepage {
 	margin: auto;
 	text-align: center;
 	overflow-y: auto;
+	float: left;
 }
 
 div.iconbox {
+	text-align: center;
 	width: 510px;
 	height: 175px;
-	
-}
-
-img.icon {
-	margin-top: 0px;
-
+	margin-top: 2px;
 }
 
 div.title {
-
-	width: 510px;
+	text-align: center;
+	padding-top: 0px;
+	width: 100%;
 	height: 35px;
-	
-	
 }
-
-
 
 p.HelloWorld {
 	font-family: myFirstFont;
 	font-size: 35px;
 }
 
-
-
 div.intro {
 	color: black;
 	text-align: center;
+	font-family: resumefont;
 }
 
 div.logo {
 	text-align: center;
-	margin-bottom: 0px;
 }
 
+div.secondpage {
+	background-image: url("images/picabout.jpg");
+	width: 510px;
+	height: 600px;
+	float: right;
+	overflow-y: auto;
+	text-align: left;
+	display: inline-block;
+}
+
+div.text {
+	padding-left: 8px;
+	padding-right: 16px;
+	text-align: justify;
+}
+
+p.subject {
+	font-family: myFirstFont;
+	font-size: 20px;
+}
+
+li {
+	font-family: resumefont;
+    margin-bottom: 20px;
+}
+
+dt.details {
+	font-size: 14px;
+}
 

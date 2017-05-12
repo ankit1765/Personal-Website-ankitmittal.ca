@@ -14,7 +14,6 @@ background-image: url("images/skyline.jpg");
 	background-repeat: repeat;
 	position: static;
 	align-content: center;
-
 	background-size: cover;
 }
 
@@ -33,8 +32,6 @@ div.widecontainer {
 	width: 100%;
 	height: 100%;
 	padding-top: 5%;
-	/*align-items: center;
-	align-content: center;*/
 }
 
 
@@ -48,45 +45,34 @@ div.multiplepages {
 div.titlepage {
 	background-image: url("images/pic.jpg");
 	background-size:cover;
-
 	width: 510px;
 	height: 600px;
 	margin: auto;
 	text-align: center;
-	/*top: 50%;*/
-	/*bottom: 50%;*/
 	overflow-y: auto;
 	float: left;
 }
 
 div.iconbox {
+	text-align: center;
 	width: 510px;
 	height: 175px;
 	margin-top: 2px;
 }
 
-img.icon {
-	margin-top: 0px;
-}
-
 div.title {
+	text-align: center;
 	padding-top: 0px;
-	width: 510px;
+	width: 100%;
 	height: 35px;
-	margin-bottom: 5px;
 }
-
-
 
 p.HelloWorld {
 	font-family: myFirstFont;
 	font-size: 30px;
 }
 
-
-
 div.intro {
-
 	color: black;
 	text-align: center;
 	font-family: resumefont;
@@ -94,15 +80,6 @@ div.intro {
 
 div.logo {
 	text-align: center;
-	margin-bottom: 0px;
-}
-
-div.socialmedia {
-	float: right;
-	width: 510px;
-	height: 35px;
-	text-align: center;
-	padding-top: 0px;
 }
 
 div.secondpage {
@@ -116,7 +93,9 @@ div.secondpage {
 }
 
 div.text {
-	padding-left: 15px;
+	padding-left: 8px;
+	padding-right: 16px;
+	text-align: left;
 }
 
 li {
@@ -124,17 +103,10 @@ li {
     margin-bottom: 9px;
 }
 
-p.education {
+p.subject {
 	font-family: myFirstFont; 
+	font-size: 20px;
 }
-p.employment {
-	font-family: myFirstFont; 
-}
-
-p.volunteer {
-	font-family: myFirstFont; 
-}
-
 
 dt.location {
 	font-size: 13px;
@@ -144,12 +116,6 @@ dt.location {
 dt.time {
 	font-size: 11px;
 	text-align: left;
-}
-
-
-a.companies:hover {
-	
-	color: blue;
 }
 
 
