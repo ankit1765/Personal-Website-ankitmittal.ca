@@ -9,12 +9,11 @@
 }
 
 body {
-background-image: url("images/skyline.jpg");
+	background-image: url("images/skyline.jpg");
     background-attachment: fixed;
 	background-repeat: repeat;
 	position: static;
 	align-content: center;
-
 	background-size: cover;
 }
 
@@ -33,8 +32,6 @@ div.widecontainer {
 	width: 100%;
 	height: 100%;
 	padding-top: 5%;
-	/*align-items: center;
-	align-content: center;*/
 }
 
 
@@ -48,41 +45,32 @@ div.multiplepages {
 div.titlepage {
 	background-image: url("images/pic.jpg");
 	background-size:cover;
-
 	width: 510px;
 	height: 600px;
 	margin: auto;
 	text-align: center;
-	/*top: 50%;*/
-	/*bottom: 50%;*/
 	overflow-y: auto;
 	float: left;
 }
 
 div.iconbox {
+	text-align: center;
 	width: 510px;
 	height: 175px;
 	margin-top: 2px;
 }
 
-img.icon {
-	margin-top: 0px;
-}
-
 div.title {
+	text-align: center;
 	padding-top: 0px;
-	width: 510px;
+	width: 100%;
 	height: 35px;
 }
-
-
 
 p.HelloWorld {
 	font-family: myFirstFont;
 	font-size: 35px;
 }
-
-
 
 div.intro {
 	color: black;
@@ -92,15 +80,6 @@ div.intro {
 
 div.logo {
 	text-align: center;
-	margin-bottom: 0px;
-}
-
-div.socialmedia {
-	float: right;
-	width: 510px;
-	height: 35px;
-	text-align: center;
-	padding-top: 0px;
 }
 
 div.secondpage {
@@ -114,23 +93,22 @@ div.secondpage {
 }
 
 div.text {
-	padding-left: 15px;
-}
-
-
-li {
-	font-family: resumefont;
-    margin-bottom: 8px;
+	padding-left: 8px;
+	padding-right: 16px;
+	text-align: justify;
 }
 
 p.subject {
-	font-family: myFirstFont; 
+	font-family: myFirstFont;
+	font-size: 20px;
 }
 
-
-div.test {
-	
-	margin-left: 20px;
-	margin-right: 10px;
-	
+li {
+	font-family: resumefont;
+    margin-bottom: 20px;
 }
+
+dt.details {
+	font-size: 14px;
+}
+
