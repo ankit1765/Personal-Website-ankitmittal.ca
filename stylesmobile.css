@@ -9,7 +9,8 @@
 }
 
 body {
-	background-image: url("images/skyline.jpg");
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+    background-image: url("images/skyline.jpg");
     background-attachment: fixed;
 	background-repeat: repeat;
 	position: static;
@@ -26,74 +27,76 @@ div.links {
 	position: fixed;
 }
 
-
 div.widecontainer {
 	float: right;
 	width: 100%;
 	height: 100%;
-	padding-top: 5%;
-}
-
-
-div.multiplepages {
-	width: 1030px;
-	height: 600px;
-	margin:auto;
+	padding-top: 2%;
 	text-align: center;
+
 }
 
 div.titlepage {
+	
 	background-image: url("images/pic.jpg");
 	background-size:cover;
-	width: 510px;
-	height: 600px;
+	width: 90%;
+	height: 90%;
 	margin: auto;
 	text-align: center;
 	overflow-y: auto;
-	float: left;
-
+	margin-bottom: 15px;
 }
 
 div.iconbox {
-	text-align: center;
-	width: 510px;
+	width: 100%;
 	height: 175px;
-	margin-top: 2px;
+	text-align: center;
+	
 }
 
+
+
 div.title {
-	text-align: center;
-	padding-top: 0px;
 	width: 100%;
 	height: 35px;
+	text-align: center;
 }
+
 
 p.HelloWorld {
 	font-family: myFirstFont;
-	font-size: 35px;
+	font-size: 50px;
 }
+
 
 div.intro {
 	color: black;
 	text-align: center;
 	font-family: resumefont;
+	font-size: 25px;
 }
 
 div.logo {
 	text-align: center;
+	margin-bottom: 0px;
 }
+
 
 div.secondpage {
 	background-image: url("images/picabout.jpg");
-	width: 510px;
-	height: 600px;
-	float: right;
-	overflow-y: scroll;
-	text-align: left;
-	display: inline-block;
+		background-size:cover;
+	width: 90%;
+	height: 1210px;
+	margin: auto;
+	margin-bottom: 30px;
+	overflow-y: auto;
 }
 
+
 div.text {
+	margin-right: 5px;
+	margin-left: 5px;
 	padding-left: 5px;
 	padding-right: 5px;
 	text-align: justify;
@@ -101,20 +104,19 @@ div.text {
 
 p.subject {
 	font-family: myFirstFont;
-	font-size: 20px;
+	font-size: 35px;
 }
 
 li {
 	font-family: resumefont;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 dt.details {
-	font-size: 14px;
+	font-size: 28px;
 }
 
-div.border {
-	
+div.border {	
 	margin-top: 7px;
 	margin-left: 3px;
 	margin-right: 3px;
@@ -123,4 +125,6 @@ div.border {
     border-width: 1px;
 }
 
-
+div.social {
+	text-align: center;
+}
