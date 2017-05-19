@@ -10,7 +10,7 @@
 
 body {
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
-    background-image: url("images/skyline.jpg");
+    background-image: url("images/skylinemobile.jpg");
     background-attachment: fixed;
 	background-repeat: repeat;
 	position: static;
@@ -38,14 +38,18 @@ div.widecontainer {
 
 div.titlepage {
 	
-	background-image: url("images/pic.jpg");
+	background-image: url("images/mobilebackground.png");
 	background-size:cover;
+	border: medium;
+	border-color: black;
 	width: 90%;
 	height: 90%;
 	margin: auto;
 	text-align: center;
 	overflow-y: auto;
+	margin-bottom: 30px;
 	margin-bottom: 15px;
+	background-blend-mode:luminosity;
 }
 
 div.iconbox {
@@ -67,6 +71,7 @@ div.title {
 p.HelloWorld {
 	font-family: myFirstFont;
 	font-size: 50px;
+	
 }
 
 
@@ -84,10 +89,33 @@ div.logo {
 
 
 div.secondpage {
-	background-image: url("images/picabout.jpg");
+	background-image: url("images/mobilebackground.png");
 		background-size:cover;
 	width: 90%;
-	height: 1210px;
+	height: 1450px;
+	margin: auto;
+	margin-bottom: 30px;
+	margin-top: 15px;
+	overflow-y: auto;
+}
+
+div.thirdpage {
+	background-image: url("images/mobilebackground.png");
+		background-size:cover;
+	width: 90%;
+	height: 1280px;
+	margin: auto;
+	margin-bottom: 30px;
+	margin-top: 15px;
+	overflow-y: auto;
+	text-align: center;
+}
+
+div.fourthpage {
+	background-image: url("images/mobilebackground.png");
+		background-size:cover;
+	width: 90%;
+	height: 1200px;
 	margin: auto;
 	margin-bottom: 30px;
 	overflow-y: auto;
@@ -99,7 +127,8 @@ div.text {
 	margin-left: 5px;
 	padding-left: 5px;
 	padding-right: 5px;
-	text-align: justify;
+	text-align: left;
+	
 }
 
 p.subject {
@@ -127,4 +156,13 @@ div.border {
 
 div.social {
 	text-align: center;
+}
+
+#map {
+ 	height: 500px;
+    width: 90%;
+}
+
+div.googlemap {
+	align-content: center;
 }

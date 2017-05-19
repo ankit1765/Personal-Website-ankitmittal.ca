@@ -19,8 +19,29 @@
     window.location = "contactmobile.html";
   }
   //-->
-</script>	
+</script>
 	
+	 
+    <script>
+		
+      function initMap() {
+        var uluru = {lat: 49.264820, lng: -123.252817};
+		  var pos = {lat: 49.265828, lng: -123.235393};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 13,
+          center: pos
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDy3rd3iw1CPOjMRessoZVgfv9ZEa8Rp10&callback=initMap">
+    </script>
+
 	
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 	<title>Ankit Mittal | Contact</title>
@@ -53,11 +74,11 @@
 				<div class="titlepage" style="left: 12px; top: 66px;">
 			    
 			    	<div class="iconbox">
-				    	<p><img class="icon" src = "images/iconcontac.png" alt = "xyz" width = "165" height = "170" title = "xyz" ></p>
+				    	<p><img class="icon" src = "images/iconcontac.png" alt = "Vanice Beach, CA" width = "165" height = "170" title = "Vanice Beach, CA" ></p>
 				    </div>
 			  
       	    		<div class="title">
-      	      			<p class ="HelloWorld"><strong>Let's chat!</strong></p>
+      	      			<p class ="HelloWorld"><strong><font color="#030664">Let's Chat!</font></strong></p>
       	      		</div>
 		      
 		      		<div class = "intro">
@@ -65,7 +86,7 @@
 	        		</div> 
 
 		    		<div class = "logo">
-						<p class="logo"><img src = "images/logowname.png" alt ="xyz" width = "350" height = "200" title = "xyz"></p>
+						<p class="logo"><img src = "images/logowname.png" alt ="Ankit Mittal" width = "350" height = "200" title = "Ankit Mittal"></p>
 		   			 </div>
 	
 				</div>
@@ -75,48 +96,37 @@
 					<div class="text">	
 						
 						<p class="subject" ><strong><img src ="images/homeaddress.png" width="18px" height="18px">&ensp;ADDRESS</strong></p><hr>
-							<ul><li><p>Vancouver, BC, Canada</p></li></ul>
-							<p>&ensp;</p>
-							
-						<p class="subject"><strong><img src = "images/phone.png" width="18px" height="18px" >&ensp; TELEPHONE</strong></p>
-						<hr>
-							
-							<ul><li><p>780 266 1765</p></li></ul>
-							<p>&ensp;</p>
-							
-						<p class="subject"><strong><img src = "images/mail.png" width="18px" height="18px" >&ensp; EMAIL</strong> </p>
-						<hr>
-							
-							<ul><li><p>ankit.mittal@alumni.ubc.ca&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<a href="mailto: ankit.mittal@alumni.ubc.ca"><img src = "images/emailnow.png" onmouseover="this.src='images/emailnowhover.png';" onmouseout="this.src='images/emailnow.png';" width="100px" height="30px"></a></p></li></ul>
 	
-						<p class="subject"><strong><img src = "images/search.png" width="18px" height="18px" >&ensp; FOLLOW ME</strong></p>
-						<hr>		
+							<div class="googlemap"><p id="map"></p></div>
 						
+							
+								
+					<p class="subject" ><strong><img src ="images/search.png" width="18px" height="18px">&ensp;CONNECT NOW</strong></p><hr>
+
 						<div class="social">
-						<p style="line-height:1.0;">
 						
-						<a href="http://www.linkedin.com/in/ankit1765" style="padding-right: 30px;"><img src = "images/linkedinname.png"  width="100px" height="25px"></a>
-						
-						<a href="http://www.github.com/ankit1765"><img src = "images/github.png"  width="90px" height="22px"></a>
-						
-						
-						<dt>
-						<a href="https://twitter.com/nkitmittal" style="padding-right: 20px;"><img src = "images/twitter.png"  width="100px" height="25px"></a>
-						
-						<a href="https://www.facebook.com/ankit765"><img src = "images/facebook.png"  width="100px" height="23px"></a>
-						
-						
-						<dt>
-						<a href="http://www.instagram.com/ankitmittal_"><img src = "images/instagram.png"  width="110px" height="32px"></a>
-						</dt>
-						</dt>
-						</p>
+						 <p>&nbsp;
+       		    
+       		      		</p>
+						 <p><a style="padding-right: 20px;" href="mailto: ankit.mittal@alumni.ubc.ca"> <img src = "images/mail.png"  width="35px" height="35px"></a>
+						   
+						   <a style="padding-right: 20px;" class = "linkedin" href="http://www.linkedin.com/in/ankit1765"><img src = "images/linkedin.jpg"  height="35px" width="35px"></a>
+						   
+						   <a style="padding-right: 20px;" class = "instagram" href="http://www.github.com/ankit1765"><img src = "images/github.jpg"  height="35px" width="35px"></a>
+						   
+						   <a style="padding-right: 20px;" class = "github" href="http://www.instagram.com/ankitmittal_"><img src = "images/instagram.jpg"  height="35px" width="35px"></a>        		    
+						   
+						   <a style="padding-right: 20px;" class = "instagram" href="http://www.facebook.com/ankit765"><img src = "images/facebook.png"  height="35px" width="35px"></a>
+						   
+						   <a style="padding-right: 20px;" class = "instagram" href="https://twitter.com/nkitmittal"><img src = "images/twitter.png"  height="35px" width="35px"></a>
+						   
+						   
+						   
+					      </p>
 						
 						</div>
-						
-						
 	
-					</div>
+				  </div>
 					
 				</div>
 

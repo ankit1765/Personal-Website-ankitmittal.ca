@@ -11,6 +11,27 @@
 		}
 	</script>
 	
+	  <script>
+		
+      function initMap() {
+        var uluru = {lat: 49.264820, lng: -123.252817};
+		  var pos = {lat: 49.265828, lng: -123.235393};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 13,
+          center: pos
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    
+       
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDy3rd3iw1CPOjMRessoZVgfv9ZEa8Rp10&callback=initMap">
+    </script>
+	
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 	
 	<title>Ankit Mittal</title>
@@ -29,15 +50,30 @@
 				</div>
 			  
       	    	<div class="title">
-      	    	  <p class ="HelloWorld"><strong>Hello World!</strong></p>
-			  </div>
+      	    	  <p class ="HelloWorld"><strong><font color="#04014B">Hello World!</font><br>
+      	    	  </strong>		      </p>
+   	    	  </div>
 		      
 		      	<div class = "intro">
-				  <p style="line-height:1.5;">Learn more <a href="about.html" >about me</a> and <a href="about.html" >my projects</a>. Since I am seeking an internship, you may also view <a href="resume.html" >my resume</a>. Please feel free to reach out by <a href="contact.html" >contacting me</a>.</p>
-	        	</div> 
+		      	  <p style="line-height:1.5;">Learn more about me, my projects. Since I am seeking an internship, you may also view my resume. Please feel free to reach out by contacting me.		      	</p>
+		      	</div> 
 
+	    	
+	    	<div>
+	    	  <p>
+        		    
+       		    <a style="padding-right: 20px;" class = "linkedin" href="http://www.linkedin.com/in/ankit1765"><img src = "images/linkedin.jpg"  height="40px" width="40px"></a>
+	        		    
+       		    <a style="padding-right: 20px;" class = "github" href="http://www.instagram.com/ankitmittal_"><img src = "images/instagram.jpg"  height="40px" width="40px"></a>
+	        		    
+       		      <a style="padding-right: 20px;" href="mailto: ankit.mittal@alumni.ubc.ca"> <img src = "images/mail.png"  width="40px" height="40px"></a>
+	        		    
+       		    <a style="padding-right: 20px;" class = "instagram" href="http://www.github.com/ankit1765"><img src = "images/github.jpg"  height="40px" width="40px"></a></p>
+	    	</div>
+	    	
+	    	
 		    	<div class = "logo">
-					<p><img src = "images/logowname.png" alt ="xyz" width = "350" height = "200" title = "xyz"></p>
+				  <p><img src = "images/logowname.png" alt ="xyz" width = "350" height = "200" title = "xyz"></p>
 		    	</div>
 		    			
 		  </div>
@@ -55,7 +91,7 @@
 			  
       	    		<div class="title">
      	      			
-      	      			<p class ="HelloWorld"><strong>Aspiring computer engineer</strong></p>
+      	      			<p class ="HelloWorld"><strong><font color="#04014B">Aspiring Computer Engineer</font></strong></p>
       	      			
       	      		</div>
 		        
@@ -82,9 +118,9 @@
 							<p class="subject"><strong><img src = "images/boy.png" width="45px" height="45px" >&ensp; ABOUT ME</strong> </p>
 							
 						
-							<ul style="line-height:1.2; margin-left: -15px;">
+							<ul style="line-height:1.2; margin-left: -10px;">
 							
-								<li style="font-size: 25px;">Skilled at Python, C, MatLab, HTML, CSS, and JavaScript, Adobe Photoshop. Experienced in Project Management, Team Work, Teaching, Leadership, and Public Speaking.</li>
+								<li style="font-size: 25px;">Skilled at Python, C, MatLab, HTML, CSS, JavaScript, and Adobe Photoshop. Experienced in Project Management, Team Work, Teaching, Leadership, and Public Speaking.</li>
 								<li style="font-size: 25px;">Born in northern India, grew up in Toronto, live in Edmonton, and study in Vancouver. Have proudly visited Winnipeg, South Carolina, Seattle, San Francisco, Los Angeles, and Fort McMurray.</li>
 								<li style="font-size: 25px;">Keen photographer, elder brother, traveller, and fan of the <a href="https://raptors.com" style="text-decoration: none; color : #000000;"><strong>Toronto Raptors</strong></a>.</li>
 								
@@ -99,19 +135,19 @@
 							<p class="subject"><strong><img src = "images/projects.png" width="45px" height="45px" >&ensp; MY PROJECTS</strong> </p>
 							
 						
-							<ul style="line-height:1.3; margin-left: -15px;">
+							<ul style="line-height:1.3; margin-left: -10px;">
 							
-								<li style="font-size: 35px;"><strong>CatchIT</strong>  |   <a class = "contentbutt" href="https://github.com/ankit1765/CatchIT"><img src = "images/githubbutt.png" onmouseover="this.src='images/githubbutthover.png';" onmouseout="this.src='images/githubbutt.png';" width="65px" height="15px"></a> <dt class="details"> Graphics game in Python. By completing this project, I learned object-oriented programming, livewires module, PyGame library, developed as a self-learner. Thanks to<a href="https://books.google.ca/books/about/Beginning_Game_Development_with_Python_a.html?id=d5YSogEACAAJ&redir_esc=y" style="text-decoration: none; color : #000000;"><strong> Will Mcgugan's Beginning Game Development with Python and Pygame</strong></a> book.</dt></li>
+								<li style="font-size: 35px;"><strong><font color="#04014B">CatchIT</font></strong>  |   <a class = "contentbutt" href="https://github.com/ankit1765/CatchIT"><img src = "images/githubbutt.png" onmouseover="this.src='images/githubbutthover.png';" onmouseout="this.src='images/githubbutt.png';" width="120px" height="30px"></a> <dt class="details"> Graphics game in Python. By completing this project, I learned object-oriented programming, livewires module, PyGame library, developed as a self-learner. Thanks to<a href="https://books.google.ca/books/about/Beginning_Game_Development_with_Python_a.html?id=d5YSogEACAAJ&redir_esc=y" style="text-decoration: none; color : #000000;"><strong> Will Mcgugan's Beginning Game Development with Python and Pygame</strong></a> book.</dt></li>
 
 
-								<li style="font-size: 35px;"><strong>FAQTS.ORG</strong>  |  <a class = "contentbutt" href="https://devpost.com/software/faqts"><img src = "images/devpostbutt.png" onmouseover="this.src='images/devpostbutthover.png';" onmouseout="this.src='images/devpostbutt.png';" width="65px" height="15px"></a> <dt class="details"> An intelligent chat bot which serves as an assistant in fighting harrassment. Created at <a href="http://hacktech.io" style="text-decoration: none; color : #000000;"><strong>Hacktech 2017</strong></a> in Pasedena, CA. Used python flask, C#, HTML, CSS, Microsoft and Twillio's APIs, as well as Microsoft's Bot Framework. </dt></li>
+								<li style="font-size: 35px;"><strong><font color="#04014B">FAQTS</font></strong>   |  <a class = "contentbutt" href="https://devpost.com/software/faqts"><img src = "images/devpostbutt.png" onmouseover="this.src='images/devpostbutthover.png';" onmouseout="this.src='images/devpostbutt.png';" width="120px" height="30px"></a> <dt class="details"> An intelligent chat bot which serves as an assistant in fighting harrassment. Created at <a href="http://hacktech.io" style="text-decoration: none; color : #000000;"><strong>Hacktech 2017</strong></a> in Pasedena, CA. Used python flask, C#, HTML, CSS, Microsoft and Twillio's APIs, as well as Microsoft's Bot Framework. </dt></li>
 							
-								<li style="font-size: 35px;"><strong>PROJECT EULER</strong>  |  <a class = "contentbutt" href="https://github.com/ankit1765/ProjectEuler_Problems"><img src = "images/githubbutt.png" onmouseover="this.src='images/githubbutthover.png';" onmouseout="this.src='images/githubbutt.png';" width="65px" height="15px"></a> <dt class="details"> I am currently working through problems from projecteuler.net to improve my algorithm skills and stimulate my mind during my spare time. </dt></li>
+								<li style="font-size: 35px;"><strong><font color="#04014B">PROJECT EULER</font></strong>   |  <a class = "contentbutt" href="https://github.com/ankit1765/ProjectEuler_Problems"><img src = "images/githubbutt.png" onmouseover="this.src='images/githubbutthover.png';" onmouseout="this.src='images/githubbutt.png';" width="120px" height="30px"></a> <dt class="details"> I am currently working through problems from projecteuler.net to improve my algorithm skills and stimulate my mind during my spare time. </dt></li>
 							
-								<li style="font-size: 35px;"><strong>TIC TAC TOE</strong>  |  <a class = "contentbutt" href="https://github.com/ankit1765/Tac-Tac-Toe"><img src = "images/githubbutt.png" onmouseover="this.src='images/githubbutthover.png';" onmouseout="this.src='images/githubbutt.png';" width="65px" height="15px"></a> <dt class="details"> Command-line based Tic Tac Toe game. Used the fundamentals of Python to developed an algorithm which gives intelligence and decision making skills to a computer opponent. <a href="http://www.goodreads.com/book/show/80443.Python_Programming_for_the_Absolute_Beginner" style="text-decoration: none; color : #000000;"><strong>Thanks to Michael Dawson's Python Programming for the Absolute Beginner</strong></a> book.</dt></li>	
+								<li style="font-size: 35px;"><strong><font color="#04014B">TIC-TAC-TOE</font></strong>   |  <a class = "contentbutt" href="https://github.com/ankit1765/Tac-Tac-Toe"><img src = "images/githubbutt.png" onmouseover="this.src='images/githubbutthover.png';" onmouseout="this.src='images/githubbutt.png';" width="120px" height="30px"></a> <dt class="details"> Command-line based Tic Tac Toe game. Used the fundamentals of Python to developed an algorithm which gives intelligence and decision making skills to a computer opponent. <a href="http://www.goodreads.com/book/show/80443.Python_Programming_for_the_Absolute_Beginner" style="text-decoration: none; color : #000000;"><strong>Thanks to Michael Dawson's Python Programming for the Absolute Beginner</strong></a> book.</dt></li>	
 								
 				
-								<li style="font-size: 35px;"><strong>HANG MAN</strong>  |  <a class = "contentbutt" href="https://github.com/ankit1765/Hangman"><img src = "images/githubbutt.png" onmouseover="this.src='images/githubbutthover.png';" onmouseout="this.src='images/githubbutt.png';" width="65px" height="15px"></a> <dt class="details"> Used file I/O and string manipulation in python to create a children's word game, to be played with a computer opponent. Displays the graphic (ASCII) picture as the game progresses.  </dt></li>			
+								<li style="font-size: 35px;"><strong><font color="#04014B">HANG MAN</font></strong>   |  <a class = "contentbutt" href="https://github.com/ankit1765/Hangman"><img src = "images/githubbutt.png" onmouseover="this.src='images/githubbutthover.png';" onmouseout="this.src='images/githubbutt.png';" width="120px" height="30px"></a> <dt class="details"> Used file I/O and string manipulation in python to create a children's word game, to be played with a computer opponent. Displays the graphic (ASCII) picture as the game progresses.  </dt></li>			
 																	
 							</ul>	
 					
@@ -133,30 +169,25 @@
 					</div>
 			  
 					<div class="title">
-					  <p class ="HelloWorld"><strong>Seeking an internship in</strong></p>
+					  <p class ="HelloWorld"><strong><font color="#04014B">Seeking an Internship in</font></strong></p>
 					</div>
 		      
 		      
 					<div class = "intro">
 					  <p>&nbsp;</p>
-					  <p> <img src = "images/pindrop.png" width="15px" height="23px">  <strong>&nbsp;Toronto, ON &nbsp; &nbsp;</strong> <img src = "images/pindrop.png" width="15px" height="23px" > <strong>&nbsp;Edmonton, AB &nbsp;&nbsp;&nbsp;</strong><img src = "images/pindrop.png" width="15px" height="23px"><strong>&nbsp;Vancouver, BC </strong></p>
+					  <p> <img src = "images/pindrop.png" width="15px" height="23px">  <strong>Toronto, ON &nbsp;</strong> <img src = "images/pindrop.png" width="15px" height="23px" > <strong>&nbsp;Edmonton, AB &nbsp;</strong><img src = "images/pindrop.png" width="15px" height="23px"><strong>&nbsp;Vancouver, BC </strong></p>
 					</div> 
 	        
 		  <p>&nbsp;</p>
 					<p><a href="resume.pdf"><img src = "images/download.png" onmouseover="this.src='images/downloadhover.png';" onmouseout="this.src='images/download.png';" width="370px" height="50px"></a>
-					  
-					  <a href="http://www.linkedin.com/in/ankit1765"><img src = "images/linkedin.png" onmouseover="this.src='images/linkedinhover.png';" onmouseout="this.src='images/linkedin.png';" width="190px" height="50px"></a>
-					  
-					  <a href="contact.html"><img src = "images/getintouch.png" onmouseover="this.src='images/getintouchhover.png';" onmouseout="this.src='images/getintouch.png';" width="190px" height="50px"></a>
-					  
-					  
-					  
+		
+	  
 		  </p>
 					<p>&nbsp;</p>
 		</div>
 				
 				
-		<div class="secondpage" >
+		<div class="thirdpage" >
 						
 					<div class="text">	
 							
@@ -164,7 +195,7 @@
 							<div class="text">
 							<p class="subject" ><strong><img src = "images/education.png" width="45px" height="45px">&ensp;EDUCATION </strong></p>
 							
-							<ul style="line-height:1.0; margin-left: -15px;">
+							<ul style="line-height:1.0; margin-left: -10px;">
 							
 								<li style="font-size: 25px;"><a href="http://students.engineering.ubc.ca" style="text-decoration: none; color : #000000;"> <strong>University of British Columbia, Bachelors of Applied Science.</strong></a> <dt class="location">Vancouver, BC <dt class="time">September 2016 - Present</dt> </dt></li>
 							
@@ -179,7 +210,7 @@
 							<div class="text">
 							<p class="subject"><strong><img src = "images/employment.png" width="45px" height="45px" >&ensp; WORK EXPERIENCE</strong></p>
 							
-							<ul style="line-height:1.0; margin-left: -15px;">
+							<ul style="line-height:1.0; margin-left: -10px;">
 							
 								<li style="font-size: 25px;"><a href="https://www.nwhacks.io" style="text-decoration: none; color : #000000;"><strong>NwHacks Logistics Coordinaor, StartupStorm. </strong></a><dt class="location">Vancouver, BC <dt class="time">May 2017 - Present </dt></dt></li>
 							
@@ -198,7 +229,7 @@
 							
 							<p class="subject"><strong><img src = "images/volunteer.png" width="45px" height="43px" >&ensp; COMMUNITY INVOLVEMENT</strong> </p>
 							
-							<ul style="line-height:1.0; margin-left: -15px;">
+							<ul style="line-height:1.0; margin-left: -10px;">
 								
 								<li style="font-size: 25px;"><strong>Director of Learner's Hackathon, UBC Electrical and Computer Engineering Student Society.</strong> <dt class="location">Vancouver, BC <dt class="time">April 2017 - Present</dt></dt></li>
 								
@@ -218,69 +249,42 @@
 				    </div>
 			  
       	    		<div class="title">
-      	      			<p class ="HelloWorld"><strong>Let's chat!</strong></p>
+      	      			<p class ="HelloWorld"><strong><font color="#04014B">Let's Chat!</font></strong></p>
       	      		</div>
-		      
-		      		<div class = "intro">
-	          			<p style="margin-left: : 10px; margin-right: 10px;">I'm always willing to talk. Whether it is for an interview, discussion, or you'd like to be friends, please don't hesitate to reach out.</p>
-	          			<p style="margin-left: : 10px; margin-right: 10px;">&nbsp;</p>
-	        		</div> 
-
+		   
+	        		
+	        		<div>
+	        		
+	        		  <p>&nbsp;</p>
+	        		  <p >
+        		    
+        		    <a style="padding-right: 20px;" class = "linkedin" href="http://www.linkedin.com/in/ankit1765"><img src = "images/linkedin.jpg"  height="65px" width="65px"></a>
+	        		    
+	        		    <a style="padding-right: 20px;" class = "github" href="http://www.instagram.com/ankitmittal_"><img src = "images/instagram.jpg"  height="65px" width="65px"></a>
+	        		    
+	        		      <a style="padding-right: 20px;" href="mailto: ankit.mittal@alumni.ubc.ca"> <img src = "images/mail.png"  width="65px" height="65px"></a>
+	        		    
+	        		    <a style="padding-right: 20px;" class = "instagram" href="http://www.github.com/ankit1765"><img src = "images/github.jpg"  height="65px" width="65px"></a>
+	        		    
+	        		     <a style="padding-right: 20px;" class = "instagram" href="http://www.facebook.com/ankit765"><img src = "images/facebook.png"  height="65px" width="65px"></a>
+						   
+						   <a style="padding-right: 20px;" class = "instagram" href="https://twitter.com/nkitmittal"><img src = "images/twitter.png"  height="65px" width="65px"></a>
+	        		    
+	        		  <p style="margin-left: 60px; margin-right: 60px;" id="map"></p>
+	        		    
+	        		    </p>
+	        		    
+	        		    
+	        		  <p>&nbsp;</p>
+					
+					</div>
+	    		
+				
 		    		
 	
 				</div>
 				
-				<div class="secondpage" >
-						
-					<div class="text">	
-						
-						<p class="subject" ><strong><img src ="images/homeaddress.png" width="45px" height="45px">&ensp;ADDRESS</strong></p>
-						<hr>
-							<ul><li style="font-size: 25px;"><p>							  Vancouver, BC, Canada</p>
-							</li>
-					  </ul>
-						<p class="subject"><strong><img src = "images/phone.png" width="45px" height="45px" >&ensp; TELEPHONE</strong></p>
-						<hr>
-							
-							<ul><li style="font-size: 25px;"><p>780 266 1765</p></li></ul>
-						<p class="subject"><strong><img src = "images/mail.png" width="45px" height="45px" >&ensp; EMAIL</strong> </p>
-						<hr>
-							
-							<ul><li style="font-size: 25px;"><p>ankit.mittal@alumni.ubc.ca&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<a href="mailto: ankit.mittal@alumni.ubc.ca"><img src = "images/emailnow.png" onmouseover="this.src='images/emailnowhover.png';" onmouseout="this.src='images/emailnow.png';" width="175px" height="60px"></a></p>
-							  <p>&nbsp;</p>
-					  </li></ul>
-	
-						<p class="subject"><strong><img src = "images/search.png" width="45px" height="45px" >&ensp; FOLLOW ME</strong></p>
-						<hr>		
-						
-						<div class="social">
-						                    
-						<p style="line-height:1.0;"><a href="http://www.linkedin.com/in/ankit1765" style="padding-right: 30px;"><img src = "images/linkedinname.png"  width="250px" height="70px"></a>
-						  
-						  <a href="http://www.github.com/ankit1765"> <img src = "images/github.png"  width="220px" height="60px"></a>
-						  
-						  
-						  <dt>
-						<a href="https://twitter.com/nkitmittal" style="padding-right: 20px;"><img src = "images/twitter.png"  width="240px" height="70px"></a>
-						
-						<a href="https://www.facebook.com/ankit765"><img src = "images/facebook.png"  width="240px" height="60px"></a>
-						
-						
-						<dt>
-						<a href="http://www.instagram.com/ankitmittal_"><img src = "images/instagram.png"  width="225px" height="80px"></a>
-						</dt>
-						</dt>
-						</p>
-						
-					  </div>
-						
-						<div class = "logo">
-					<p><img src = "images/logowname.png" alt ="xyz" width = "250" height = "150" title = "xyz"></p>
-		    	</div>
-	
-					</div>
-					
-				</div>
+				
 
 	</body>
 
